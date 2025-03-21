@@ -2,8 +2,35 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#project-overview">Project Overview</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+     </ol>
+</details>
 
+## Project Overview
+
+OrderMe is a mobile food ordering application tailored for Universiti Teknologi Malaysia (UTM) students, aiming to simplify the process of ordering food from local vendors who do not utilize mainstream delivery platforms. The app addresses the inconvenience of relying on manual WhatsApp-based transactions by providing a centralized and user-friendly platform that consolidates popular campus food vendors. 
+
+With OrderMe, students can seamlessly browse menus, place orders, and make payments within the app, ensuring a more efficient and hassle-free food ordering experience. By bridging the gap between students and campus vendors, OrderMe enhances convenience while supporting local businesses within the university community.
+
+### Built With
+* ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
+* ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
+* ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+## Getting Started
 1. Install dependencies
 
    ```bash
@@ -35,16 +62,4 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
