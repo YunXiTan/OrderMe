@@ -23,6 +23,8 @@ OrderMe is a mobile food ordering application tailored for Universiti Teknologi 
 
 With OrderMe, students can seamlessly browse menus, place orders, and make payments within the app, ensuring a more efficient and hassle-free food ordering experience. By bridging the gap between students and campus vendors, OrderMe enhances convenience while supporting local businesses within the university community.
 
+Besides, for the vendors, the OrderMe system provides a user-friendly interface that provides an order summary. Moreover, the system includes a billing feature that enables vendors to check and keep records of their transactions, facilitating financial management by keeping records and correct billing information.
+
 ### Built With
 * ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
 * ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
