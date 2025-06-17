@@ -341,12 +341,14 @@ const styles = StyleSheet.create({
     borderTopWidth: 1,
     borderColor: "#ddd",
     backgroundColor: "#f9f9f9",
-    paddingBottom: Platform.OS === 'android' ? 86 : 60,
+    paddingBottom: Platform.OS === 'android' ? 86 : 60, // Increased padding at bottom
+    marginBottom: 10, // Add margin to move everything up a bit
   },
   totalPrice: {
     fontSize: 18,
     fontWeight: "bold",
     color: "black",
+    marginBottom: 5, // Add some margin to move the text up
   },
   reviewButton: {
     backgroundColor: "orange",
@@ -358,3 +360,5 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
 });
+
+

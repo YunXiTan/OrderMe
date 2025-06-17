@@ -9,7 +9,7 @@ import {
   Image,
   ActivityIndicator,
 } from "react-native";
-import MapView, { Marker} from "react-native-maps";
+//import MapView, { Marker} from "react-native-maps";
 import { FIREBASE_DB } from "../../FirebaseConfig";
 import { collection, query, where, getDocs, orderBy } from "firebase/firestore";
 import { useAuth } from "@/context/AuthContext";
@@ -93,7 +93,7 @@ const Status: React.FC = ({ navigation }: any) => {
           <Text style={styles.mapBackButtonText}>Back</Text>
         </TouchableOpacity>
         <View style={{ flex: 1 }}>
-        <MapView
+        {/* <MapView
   style={styles.fullScreenMap}
   region={{
     latitude: 1.5577, // Hardcoded latitude for UTM
@@ -101,19 +101,19 @@ const Status: React.FC = ({ navigation }: any) => {
     latitudeDelta: 0.02, // Adjusted for both markers
     longitudeDelta: 0.02, // Adjusted for both markers
   }}
->
+> */}
   {/* Marker for Delivery Address */}
-  <Marker
+  {/* <Marker
     coordinate={{
       latitude: 1.5577, // UTM Latitude
       longitude: 103.6381, // UTM Longitude
     }}
     title="Delivery Address"
     description="Universiti Teknologi Malaysia"
-  />
+  /> */}
 
   {/* Marker for Restaurant Location */}
-  <Marker
+  {/* <Marker
     coordinate={{
       latitude: 1.5353, // Taman Universiti Latitude
       longitude: 103.6299, // Taman Universiti Longitude
@@ -122,7 +122,7 @@ const Status: React.FC = ({ navigation }: any) => {
     description="Taman Universiti"
     pinColor="green" // Optional: Change pin color to distinguish
   />
-</MapView>
+</MapView> */}
         </View>
       </SafeAreaView>
     );
@@ -238,7 +238,7 @@ const Status: React.FC = ({ navigation }: any) => {
 
           <Text style={styles.subHeader}>Delivery Location</Text>
           <View style={styles.mapContainer}>
-            <MapView
+            {/* <MapView
               style={styles.map}
               region={{
                 latitude: 1.5577, // Hardcoded latitude
@@ -246,17 +246,17 @@ const Status: React.FC = ({ navigation }: any) => {
                 latitudeDelta: 0.01,
                 longitudeDelta: 0.01,
               }}
-            >
-              <Marker
+            > */}
+              {/* <Marker
                 coordinate={{
                   latitude: 1.5577,
                   longitude: 103.6381,
                 }}
                 title="Delivery Address"
                 description="Universiti Teknologi Malaysia"
-              />
+              /> */}
               {/* Marker for Restaurant Position */}
-              <Marker
+              {/* <Marker
                 coordinate={{
                   latitude: 1.5353, // Taman Universiti Latitude
                   longitude: 103.6299, // Taman Universiti Longitude
@@ -265,7 +265,7 @@ const Status: React.FC = ({ navigation }: any) => {
                 description="Taman Universiti"
                 pinColor="green" // Optional: Change pin color to distinguish
               />
-            </MapView>
+            </MapView> */}
 
             <TouchableOpacity
               style={styles.fullScreenButton}
